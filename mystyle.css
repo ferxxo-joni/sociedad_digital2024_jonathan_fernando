@@ -1,0 +1,90 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2434ed;
+            color: #333;
+        }
+        header {
+            background-color: #2434ed;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .welcome-section {
+            background-color: #059bff;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        .welcome-section h2 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .welcome-section p {
+            margin: 10px 0 0;
+            font-size: 18px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #c0392b;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            color: #c0392b;
+        }
+        .info-section {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .info-section p {
+            display: none;
+            margin-top: 10px;
+        }
+        .info-section button {
+            background-color: #e74c3c;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .info-section button:hover {
+            background-color: #c0392b;
+        }
+        footer {
+            background-color: #c0392b;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+.imagen-centrada {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px; /* Espacio entre la imagen y el botón */
+    }
